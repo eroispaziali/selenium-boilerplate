@@ -27,7 +27,7 @@ public class MySeleniumTest {
 		capabilities.setPlatform(Platform.LINUX);
 		
 		// Properties
-		String driverUrl = System.getProperty("selenium", "http://192.168.99.100:4444");
+		String driverUrl = System.getProperty("selenium", "http://127.0.0.1:4444");
 		
 		// Connect to Selenium grid
 		// Console is at %s/grid/console
