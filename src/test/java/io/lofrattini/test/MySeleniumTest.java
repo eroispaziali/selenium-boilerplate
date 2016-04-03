@@ -23,7 +23,7 @@ public class MySeleniumTest {
 		DesiredCapabilities capabilities = new DesiredCapabilities();
 		
 		// Capabilities
-		capabilities.setBrowserName("chrome");
+		capabilities.setBrowserName("firefox");
 		capabilities.setPlatform(Platform.LINUX);
 		
 		// Properties
